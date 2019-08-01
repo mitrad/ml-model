@@ -97,7 +97,7 @@ gc_ranger_model <- train(class ~ ., train,
                          trControl = fit_ctrl)
 toc()
 
-ggplot(gc_ranger_model)
+ggplot(gc_grid_ranger_model)
 plot(gc_grid_ranger_model,
 #     metric = "Kappa",
      plotType = "level")
