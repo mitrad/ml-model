@@ -140,6 +140,3 @@ hacide_models <- list(original = model_rf,
                       rose = model_rose_rf,
                       smote = model_smote_rf)
 hacide_resampling <- resamples(hacide_models)
-
-=======
->>>>>>> b1c3ebf988c4bff58cca1c434b33feea52229beb
